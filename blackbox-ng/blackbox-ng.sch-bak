@@ -372,9 +372,29 @@ Wire Wire Line
 Wire Wire Line
 	1450 5450 1200 5450
 $Sheet
-S 750  6250 1000 600 
+S 650  6300 550  500 
 U 5DF48A0D
 F0 "MPU9250" 50
 F1 "MPU9250.sch" 50
+F2 "SDA" I R 1200 6500 50 
+F3 "SCL" I R 1200 6600 50 
 $EndSheet
+Wire Notes Line
+	600  6000 2050 6000
+Wire Notes Line
+	2050 6000 2050 6900
+Wire Notes Line
+	2050 6900 600  6900
+Wire Notes Line
+	600  6900 600  6000
+Text Notes 850  6100 2    50   ~ 0
+IMU
+Text GLabel 1450 6500 2    50   Input ~ 0
+SDA
+Text GLabel 1450 6600 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	1200 6500 1450 6500
+Wire Wire Line
+	1450 6600 1200 6600
 $EndSCHEMATC
