@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -310,7 +310,7 @@ L Device:R_Small R?
 U 1 1 5DF31A81
 P 900 4500
 F 0 "R?" V 704 4500 50  0000 C CNN
-F 1 "R_Small" V 795 4500 50  0000 C CNN
+F 1 "1k" V 795 4500 50  0000 C CNN
 F 2 "" H 900 4500 50  0001 C CNN
 F 3 "~" H 900 4500 50  0001 C CNN
 	1    900  4500
@@ -345,4 +345,12 @@ Wire Notes Line
 	2050 4800 600  4800
 Wire Notes Line
 	600  4800 600  4100
+$Sheet
+S 900  5100 550  500 
+U 5DF3873A
+F0 "MPL3115A2" 50
+F1 "MPL3115A2.sch" 50
+F2 "SCL" I R 1450 5400 50 
+F3 "SDA" I R 1450 5300 50 
+$EndSheet
 $EndSCHEMATC
