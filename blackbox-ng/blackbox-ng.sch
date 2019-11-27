@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -346,11 +346,55 @@ Wire Notes Line
 Wire Notes Line
 	600  4800 600  4100
 $Sheet
-S 900  5100 550  500 
+S 650  5250 550  500 
 U 5DF3873A
 F0 "MPL3115A2" 50
 F1 "MPL3115A2.sch" 50
-F2 "SCL" I R 1450 5400 50 
-F3 "SDA" I R 1450 5300 50 
+F2 "SCL" I R 1200 5550 50 
+F3 "SDA" I R 1200 5450 50 
 $EndSheet
+Wire Notes Line
+	600  4950 2050 4950
+Wire Notes Line
+	2050 4950 2050 5850
+Wire Notes Line
+	2050 5850 600  5850
+Wire Notes Line
+	600  5850 600  4950
+Text Notes 1050 5050 2    50   ~ 0
+ALTIMITER
+Text GLabel 1450 5450 2    50   Input ~ 0
+SDA
+Text GLabel 1450 5550 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	1200 5550 1450 5550
+Wire Wire Line
+	1450 5450 1200 5450
+$Sheet
+S 650  6300 550  500 
+U 5DF48A0D
+F0 "MPU9250" 50
+F1 "MPU9250.sch" 50
+F2 "SDA" I R 1200 6500 50 
+F3 "SCL" I R 1200 6600 50 
+$EndSheet
+Wire Notes Line
+	600  6000 2050 6000
+Wire Notes Line
+	2050 6000 2050 6900
+Wire Notes Line
+	2050 6900 600  6900
+Wire Notes Line
+	600  6900 600  6000
+Text Notes 850  6100 2    50   ~ 0
+IMU
+Text GLabel 1450 6500 2    50   Input ~ 0
+SDA
+Text GLabel 1450 6600 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	1200 6500 1450 6500
+Wire Wire Line
+	1450 6600 1200 6600
 $EndSCHEMATC
