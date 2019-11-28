@@ -759,7 +759,7 @@ U 1 1 5E026255
 P 1100 7600
 F 0 "J5" V 972 7980 50  0000 L CNN
 F 1 "Conn_01x08" V 1063 7980 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1100 7600 50  0001 C CNN
+F 2 "blackbox-ng:505110-0892" H 1100 7600 50  0001 C CNN
 F 3 "~" H 1100 7600 50  0001 C CNN
 	1    1100 7600
 	0    1    1    0   
@@ -1007,4 +1007,6 @@ Text Notes 4000 5150 0    50   ~ 0
 STM32F401RET6\nThis is the microcontroller
 Text Notes 9150 6950 2    200  ~ 0
 BLACKBOX V3
+Wire Wire Line
+	2900 6600 2850 6600
 $EndSCHEMATC
