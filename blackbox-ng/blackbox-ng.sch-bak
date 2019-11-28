@@ -397,4 +397,360 @@ Wire Wire Line
 	1200 6500 1450 6500
 Wire Wire Line
 	1450 6600 1200 6600
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 5DF5D28C
+P 3000 1250
+F 0 "J?" H 2972 1132 50  0000 R CNN
+F 1 "CONN_DEBUG" H 2972 1223 50  0000 R CNN
+F 2 "" H 3000 1250 50  0001 C CNN
+F 3 "~" H 3000 1250 50  0001 C CNN
+	1    3000 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF68301
+P 2400 1450
+F 0 "#PWR?" H 2400 1200 50  0001 C CNN
+F 1 "GND" H 2405 1277 50  0000 C CNN
+F 2 "" H 2400 1450 50  0001 C CNN
+F 3 "" H 2400 1450 50  0001 C CNN
+	1    2400 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1450 2800 1450
+Text GLabel 2700 1350 0    50   Input ~ 0
+NRST
+Text GLabel 2700 1250 0    50   Input ~ 0
+SWDCLK
+Text GLabel 2700 1150 0    50   Input ~ 0
+SWDIO
+Text GLabel 2700 950  0    50   Input ~ 0
+SWO
+$Comp
+L power:VDD #PWR?
+U 1 1 5DF69D16
+P 2400 1050
+F 0 "#PWR?" H 2400 900 50  0001 C CNN
+F 1 "VDD" H 2417 1223 50  0000 C CNN
+F 2 "" H 2400 1050 50  0001 C CNN
+F 3 "" H 2400 1050 50  0001 C CNN
+	1    2400 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1050 2800 1050
+Wire Wire Line
+	2700 950  2800 950 
+Wire Wire Line
+	2700 1150 2800 1150
+Wire Wire Line
+	2800 1250 2700 1250
+Wire Wire Line
+	2700 1350 2800 1350
+Wire Notes Line
+	2200 600  2200 1700
+Wire Notes Line
+	2200 1700 3750 1700
+Wire Notes Line
+	3750 600  2200 600 
+Wire Notes Line
+	3750 600  3750 1700
+Text Notes 2250 700  0    50   ~ 0
+DEBUG HEADER
+$Comp
+L bleh:500901-0801 J?
+U 1 1 5DF74C93
+P 3250 2700
+F 0 "J?" H 3380 2696 50  0000 L CNN
+F 1 "CARD1" H 3380 2605 50  0000 L CNN
+F 2 "MOLEX_500901-0801" H 3250 2700 50  0001 L BNN
+F 3 "5009010801" H 3250 2700 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex/5009010801/WM19081CT-ND/804717?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3250 2700 50  0001 L BNN "Field4"
+F 5 "None" H 3250 2700 50  0001 L BNN "Field5"
+F 6 "Molex" H 3250 2700 50  0001 L BNN "Field6"
+F 7 "WM19081CT-ND" H 3250 2700 50  0001 L BNN "Field7"
+F 8 "1.10mm _.043_ Pitch TransFlash Memory Card Connector, Hinge Type, Round Corner Top" H 3250 2700 50  0001 L BNN "Field8"
+	1    3250 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 2900 0    50   Input ~ 0
+MISO1
+Text GLabel 2750 2500 0    50   Input ~ 0
+MOSI1
+Text GLabel 2750 2700 0    50   Input ~ 0
+SCK1
+Text GLabel 2750 2400 0    50   Input ~ 0
+CS1-1
+$Comp
+L power:VDD #PWR?
+U 1 1 5DF818B3
+P 2350 2600
+F 0 "#PWR?" H 2350 2450 50  0001 C CNN
+F 1 "VDD" H 2367 2773 50  0000 C CNN
+F 2 "" H 2350 2600 50  0001 C CNN
+F 3 "" H 2350 2600 50  0001 C CNN
+	1    2350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF85BF4
+P 2350 2800
+F 0 "#PWR?" H 2350 2550 50  0001 C CNN
+F 1 "GND" H 2355 2627 50  0000 C CNN
+F 2 "" H 2350 2800 50  0001 C CNN
+F 3 "" H 2350 2800 50  0001 C CNN
+	1    2350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2800 2450 2800
+Wire Wire Line
+	2850 2600 2350 2600
+Wire Wire Line
+	2850 2500 2750 2500
+Wire Wire Line
+	2750 2400 2850 2400
+Wire Wire Line
+	2850 2900 2750 2900
+Wire Wire Line
+	2750 2700 2850 2700
+NoConn ~ 2850 3000
+NoConn ~ 2850 2300
+Wire Wire Line
+	2450 2800 2450 3200
+Wire Wire Line
+	2450 3200 2850 3200
+Connection ~ 2450 2800
+Wire Wire Line
+	2450 2800 2850 2800
+$Comp
+L bleh:500901-0801 J?
+U 1 1 5DFAA687
+P 3250 4100
+F 0 "J?" H 3380 4096 50  0000 L CNN
+F 1 "CARD2" H 3380 4005 50  0000 L CNN
+F 2 "MOLEX_500901-0801" H 3250 4100 50  0001 L BNN
+F 3 "5009010801" H 3250 4100 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex/5009010801/WM19081CT-ND/804717?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3250 4100 50  0001 L BNN "Field4"
+F 5 "None" H 3250 4100 50  0001 L BNN "Field5"
+F 6 "Molex" H 3250 4100 50  0001 L BNN "Field6"
+F 7 "WM19081CT-ND" H 3250 4100 50  0001 L BNN "Field7"
+F 8 "1.10mm _.043_ Pitch TransFlash Memory Card Connector, Hinge Type, Round Corner Top" H 3250 4100 50  0001 L BNN "Field8"
+	1    3250 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 4300 0    50   Input ~ 0
+MISO1
+Text GLabel 2750 3900 0    50   Input ~ 0
+MOSI1
+Text GLabel 2750 4100 0    50   Input ~ 0
+SCK1
+Text GLabel 2750 3800 0    50   Input ~ 0
+CS1-2
+$Comp
+L power:VDD #PWR?
+U 1 1 5DFAA691
+P 2350 4000
+F 0 "#PWR?" H 2350 3850 50  0001 C CNN
+F 1 "VDD" H 2367 4173 50  0000 C CNN
+F 2 "" H 2350 4000 50  0001 C CNN
+F 3 "" H 2350 4000 50  0001 C CNN
+	1    2350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFAA697
+P 2350 4200
+F 0 "#PWR?" H 2350 3950 50  0001 C CNN
+F 1 "GND" H 2355 4027 50  0000 C CNN
+F 2 "" H 2350 4200 50  0001 C CNN
+F 3 "" H 2350 4200 50  0001 C CNN
+	1    2350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4200 2450 4200
+Wire Wire Line
+	2850 4000 2350 4000
+Wire Wire Line
+	2850 3900 2750 3900
+Wire Wire Line
+	2750 3800 2850 3800
+Wire Wire Line
+	2850 4300 2750 4300
+Wire Wire Line
+	2750 4100 2850 4100
+NoConn ~ 2850 4400
+NoConn ~ 2850 3700
+Wire Wire Line
+	2450 4200 2450 4600
+Wire Wire Line
+	2450 4600 2850 4600
+Connection ~ 2450 4200
+Wire Wire Line
+	2450 4200 2850 4200
+Text Notes 2250 1950 0    50   ~ 0
+MICROSD CARD HOLDERS
+Wire Notes Line
+	3750 1850 3750 4800
+Wire Notes Line
+	3750 4800 2200 4800
+Wire Notes Line
+	2200 4800 2200 1850
+Wire Notes Line
+	2200 1850 3750 1850
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5DFDE23A
+P 2650 5550
+F 0 "SW?" H 2650 5835 50  0000 C CNN
+F 1 "SW_Push" H 2650 5744 50  0000 C CNN
+F 2 "" H 2650 5750 50  0001 C CNN
+F 3 "~" H 2650 5750 50  0001 C CNN
+	1    2650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DFE113F
+P 3000 5450
+F 0 "R?" H 3059 5496 50  0000 L CNN
+F 1 "100k" H 3059 5405 50  0000 L CNN
+F 2 "" H 3000 5450 50  0001 C CNN
+F 3 "~" H 3000 5450 50  0001 C CNN
+	1    3000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFE1D82
+P 2350 5550
+F 0 "#PWR?" H 2350 5300 50  0001 C CNN
+F 1 "GND" H 2355 5377 50  0000 C CNN
+F 2 "" H 2350 5550 50  0001 C CNN
+F 3 "" H 2350 5550 50  0001 C CNN
+	1    2350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DFE22AB
+P 3250 5400
+F 0 "#PWR?" H 3250 5250 50  0001 C CNN
+F 1 "VDD" H 3267 5573 50  0000 C CNN
+F 2 "" H 3250 5400 50  0001 C CNN
+F 3 "" H 3250 5400 50  0001 C CNN
+	1    3250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5350 3200 5400
+Wire Wire Line
+	3200 5400 3250 5400
+Wire Wire Line
+	3000 5350 3200 5350
+Wire Wire Line
+	3000 5550 2850 5550
+Wire Wire Line
+	2450 5550 2350 5550
+Text GLabel 3300 5550 2    50   Input ~ 0
+USERBTN
+Wire Notes Line
+	2200 4950 3750 4950
+Wire Notes Line
+	3750 4950 3750 5850
+Wire Notes Line
+	3750 5850 2200 5850
+Wire Notes Line
+	2200 5850 2200 4950
+Wire Wire Line
+	3000 5550 3300 5550
+Connection ~ 3000 5550
+Text Notes 2250 5050 0    50   ~ 0
+USER BUTTON
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5DFFE37F
+P 2650 6600
+F 0 "SW?" H 2650 6885 50  0000 C CNN
+F 1 "SW_Push" H 2650 6794 50  0000 C CNN
+F 2 "" H 2650 6800 50  0001 C CNN
+F 3 "~" H 2650 6800 50  0001 C CNN
+	1    2650 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFFE38B
+P 2350 6600
+F 0 "#PWR?" H 2350 6350 50  0001 C CNN
+F 1 "GND" H 2355 6427 50  0000 C CNN
+F 2 "" H 2350 6600 50  0001 C CNN
+F 3 "" H 2350 6600 50  0001 C CNN
+	1    2350 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6600 2350 6600
+Wire Notes Line
+	2200 6000 3750 6000
+Wire Notes Line
+	3750 6000 3750 6900
+Wire Notes Line
+	3750 6900 2200 6900
+Wire Notes Line
+	2200 6900 2200 6000
+Text Notes 2250 6100 0    50   ~ 0
+RESET BUTTON AND PULLUP
+$Comp
+L Device:R_Small R?
+U 1 1 5DFFE385
+P 3150 6750
+F 0 "R?" V 3250 6750 50  0000 C CNN
+F 1 "100k" V 3050 6750 50  0000 C CNN
+F 2 "" H 3150 6750 50  0001 C CNN
+F 3 "~" H 3150 6750 50  0001 C CNN
+	1    3150 6750
+	0    1    1    0   
+$EndComp
+Text GLabel 3300 6600 2    50   Input ~ 0
+NRST
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5E005BCE
+P 3000 6600
+F 0 "JP?" H 3000 6812 50  0000 C CNN
+F 1 "reset jumper" H 3000 6721 50  0000 C CNN
+F 2 "" H 3000 6600 50  0001 C CNN
+F 3 "~" H 3000 6600 50  0001 C CNN
+	1    3000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DFFE391
+P 2750 6850
+F 0 "#PWR?" H 2750 6700 50  0001 C CNN
+F 1 "VDD" H 2767 7023 50  0000 C CNN
+F 2 "" H 2750 6850 50  0001 C CNN
+F 3 "" H 2750 6850 50  0001 C CNN
+	1    2750 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6600 3250 6600
+Wire Wire Line
+	2750 6850 3050 6850
+Wire Wire Line
+	3050 6850 3050 6750
+Wire Wire Line
+	3250 6750 3250 6600
+Connection ~ 3250 6600
+Wire Wire Line
+	3250 6600 3300 6600
 $EndSCHEMATC

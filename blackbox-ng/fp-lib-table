@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name blackbox-ng)(type KiCad)(uri /home/aled/workspace/blackbox-ng/lib/blackbox-ng.pretty)(options "")(descr ""))
+)
