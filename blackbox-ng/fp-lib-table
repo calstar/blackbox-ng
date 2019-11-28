@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name blackbox-ng)(type KiCad)(uri ${KIPRJMOD}/../lib/blackbox-ng.pretty)(options "")(descr ""))
   (lib (name blehhhh)(type Legacy)(uri ${KIPRJMOD}/../lib/500901-0801.mod)(options "")(descr ""))
+  (lib (name FLOOF)(type KiCad)(uri /home/aled/workspace/blackbox-ng/blackbox-ng)(options "")(descr ""))
 )
