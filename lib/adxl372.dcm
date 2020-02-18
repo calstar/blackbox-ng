@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADXL372
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL372.pdf
+$ENDCMP
+#
+#End Doc Library

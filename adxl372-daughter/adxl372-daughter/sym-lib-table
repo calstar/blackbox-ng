@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name adxl)(type Legacy)(uri ${KIPRJMOD}/../..//lib/adxl372.lib)(options "")(descr ""))
+)

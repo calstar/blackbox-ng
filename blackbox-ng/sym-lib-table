@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name bleh)(type Legacy)(uri ${KIPRJMOD}/../lib/500901-0801.lib)(options "")(descr ""))
+  (lib (name adxl372)(type Legacy)(uri /home/aled/workspace/blackbox-ng/lib/adxl372.lib)(options "")(descr ""))
 )
