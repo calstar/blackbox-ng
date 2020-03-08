@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name stuff)(type KiCad)(uri ${KIPRJMOD}/../../lib/blackbox-ng.pretty)(options "")(descr ""))
+  (lib (name calstar)(type KiCad)(uri ${KIPRJMOD}/../../lib/star-common-lib.pretty)(options "")(descr ""))
+)

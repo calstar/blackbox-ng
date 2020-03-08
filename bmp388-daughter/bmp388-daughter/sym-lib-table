@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name adxl)(type Legacy)(uri ${KIPRJMOD}/../../lib/adxl372.lib)(options "")(descr ""))
+  (lib (name bmp)(type Legacy)(uri ${KIPRJMOD}/../../lib/star-common-lib.lib)(options "")(descr ""))
+  (lib (name blackbox-ng)(type Legacy)(uri /Users/zitaofang/repo/blackbox-ng/vronsky-daughter/vronsky-daughter/adxl372.lib)(options "")(descr ""))
+)
